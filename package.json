@@ -1,7 +1,7 @@
 {
   "name": "autoplay-whitelist",
   "version": "1.0.0",
-  "description": "C++ autoplay whitelist parser for Brave",
+  "description": "C++ autoplay whitelist parser for OneVN",
   "main": "./build/Release/aw_node_addon",
   "directories": {
     "test": "test"
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/autoplay-whitelist.git"
+    "url": "git+https://github.com/1-vn/autoplay-whitelist.git"
   },
-  "author": "Mark Pilgrim <mpilgrim@brave.com>",
+  "author": "Mark Pilgrim <mpilgrim@onevn.com>",
   "license": "MPL-2.0",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/brave/autoplay-whitelist/issues"
+    "url": "https://github.com/1-vn/autoplay-whitelist/issues"
   },
-  "homepage": "https://github.com/brave/autoplay-whitelist#readme",
+  "homepage": "https://github.com/1-vn/autoplay-whitelist#readme",
   "dependencies": {
     "hashset-cpp": "^2.1.0",
     "node-gyp": "^3.8.0"

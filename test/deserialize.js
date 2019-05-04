@@ -11,7 +11,7 @@ describe('Client populated from deserialized data', function() {
         this.addon = new CAWParser();
         this.addon.addHost("example.com");
         this.addon.addHost("youtube.com");
-        this.addon.addHost("brave.com");
+        this.addon.addHost("onevn.com");
         this.data = this.addon.serialize();
         this.addon2 = new CAWParser();
         this.addon2.deserialize(this.data);
@@ -22,8 +22,8 @@ describe('Client populated from deserialized data', function() {
     it('should match known host youtube.com', function() {
         assert(this.addon2.matchesHost("youtube.com"));
     })
-    it('should match known host brave.com', function() {
-        assert(this.addon2.matchesHost("brave.com"));
+    it('should match known host onevn.com', function() {
+        assert(this.addon2.matchesHost("onevn.com"));
     })
     it('should not match unknown host a.com', function() {
         assert.equal(this.addon2.matchesHost("a.com"), false);
